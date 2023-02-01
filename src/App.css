@@ -1,12 +1,14 @@
 .main-nav-container{
-    display: flex;
-    font-size: 18px;
-    float: right;
+  min-height: 100vh;
+  background: white;
+  position: relative;
+  z-index: 1; 
 }
 
 .nav-links{
     display: flex;
     align-items: center;
+    float: right;
 }
 .nav-link{
     display: inline;
@@ -20,9 +22,4 @@
     color: black;
   }
 
-  .App{
-    min-height: 100vh;
-    background: white;
-    position: relative;
-    z-index: 1; 
-  }
+ 
